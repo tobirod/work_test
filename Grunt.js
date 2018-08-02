@@ -16,9 +16,6 @@ module.exports = function(grunt) {
   
     // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
-
-    
-    grunt.loadNpmTasks('grunt-contrib-coffee');
   
     // Default task(s).
     grunt.registerTask('default', ['uglify']);
